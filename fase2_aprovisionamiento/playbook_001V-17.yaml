@@ -1,0 +1,66 @@
+---
+- name: Aprovisionamiento Corporativo e Idempotente del Router
+  hosts: routers
+  gather_facts: no
+
+  tasks:
+    # 1. Respaldar configuración actual
+    - name: 1. Respaldar la configuracion actual (show running-config)
+      cisco.ios.ios_command:
+        commands: show running-config
+      register: current_config
+
+    - name: Guardar respaldo en archivo local
+      copy:
+        content: "{{ current_config.stdout[0] }}"
+        dest: "respaldo/backup_001V-17.cfg"
+      delegate_to: localhost
+
+    # 2. Habilitar Servicios de Automatización
+    - name: 2. Habilitar NETCONF (netconf-yang)
+      cisco.ios.ios_config:
+        lines: netconf-yang
+
+    - name: 3. Habilitar RESTCONF (restconf)
+      cisco.ios.ios_config:
+        lines: restconf
+
+    - name: 4. Habilitar servidor HTTP seguro (ip http secure-server)
+      cisco.ios.ios_config:
+        lines: ip http secure-server
+
+    # 3. Aplicar Configuración Corporativa con tus parámetros
+    - name: 5. Configurar hostname corporativo
+      cisco.ios.ios_hostname:
+        config:
+          hostname: "RTR-CATIND"
+        state: merged
+
+    - name: 6. Configurar banner de acceso
+      cisco.ios.ios_banner:
+        banner: login
+        text: "ACCESO RESTRINGIDO - CATIND"
+        state: present
+
+    - name: 7. Configurar servidor NTP
+      cisco.ios.ios_ntp_global:
+        config:
+          servers:
+            - server: "1.1.1.1"
+        state: merged
+
+    - name: 8. Configurar descripcion de interfaz GigabitEthernet1
+      cisco.ios.ios_interfaces:
+        config:
+          - name: GigabitEthernet1
+            description: "Enlace-WAN-Los-Angeles"
+        state: merged
+
+    - name: 9. Crear interfaz Loopback con IP de gestion
+      cisco.ios.ios_l3_interfaces:
+        config:
+          - name: "Loopback17"
+            ipv4:
+              - address: "10.1.17.1"
+                netmask: "255.255.255.0"
+        state: merged

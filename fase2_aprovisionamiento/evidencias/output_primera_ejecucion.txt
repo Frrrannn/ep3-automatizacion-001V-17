@@ -1,0 +1,36 @@
+
+PLAY [Aprovisionamiento Corporativo e Idempotente del Router] ********************************************
+
+TASK [1. Respaldar la configuracion actual (show running-config)] ****************************************
+ok: [csr1kv]
+
+TASK [Guardar respaldo en archivo local] *****************************************************************
+ok: [csr1kv -> localhost]
+
+TASK [2. Habilitar NETCONF (netconf-yang)] ***************************************************************
+ok: [csr1kv]
+
+TASK [3. Habilitar RESTCONF (restconf)] ******************************************************************
+ok: [csr1kv]
+
+TASK [4. Habilitar servidor HTTP seguro (ip http secure-server)] *****************************************
+ok: [csr1kv]
+
+TASK [5. Configurar hostname corporativo] ****************************************************************
+ok: [csr1kv]
+
+TASK [6. Configurar banner de acceso] ********************************************************************
+ok: [csr1kv]
+
+TASK [7. Configurar servidor NTP] ************************************************************************
+ok: [csr1kv]
+
+TASK [8. Configurar descripcion de interfaz GigabitEthernet1] ********************************************
+ok: [csr1kv]
+
+TASK [9. Crear interfaz Loopback con IP de gestion] ******************************************************
+fatal: [csr1kv]: FAILED! => {"changed": false, "msg": "Unsupported parameters for (cisco.ios.ios_l3_interfaces) module: netmask found in config -> ipv4. Supported parameters include: address, dhcp, dhcp_client, dhcp_hostname, mtu, pool, proxy_arp, redirects, secondary, source_interface, unreachables"}
+
+PLAY RECAP ***********************************************************************************************
+csr1kv                     : ok=9    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+
