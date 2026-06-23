@@ -1,5 +1,5 @@
 devices:
-  CSR1kv:
+  RTR-CATIND:
     os: iosxe
     type: router
     credentials:
