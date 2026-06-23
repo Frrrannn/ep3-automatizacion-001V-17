@@ -1,0 +1,8 @@
+--- ../fase1_baseline/evidencias/platform_iosxe_CSR1kv_ops.txt
++++ evidencias/snapshot_final_001V-17/platform_iosxe_RTR-CATIND_ops.txt
+
+-[hostname]: CSR1kv
++[hostname]: RTR-CATIND
+
+-[version]: 16.09.05
++[version]: 17.03.04a
