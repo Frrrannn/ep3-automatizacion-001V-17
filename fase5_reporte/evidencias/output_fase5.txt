@@ -1,0 +1,24 @@
+==================================================
+Generando Certificado de Compliance...
+Fecha/Hora: 2026-06-23 23:04:13
+==================================================
+
+==================================================
+CERTIFICADO DE COMPLIANCE - AUTOMATIZACIÓN DE REDES
+Código de Alumno : 001V-17
+Host de Control  : labvm
+Fecha de Emisión : 2026-06-23 23:04:13
+==================================================
+
+[RESULTADOS POR MATRIZ DE PROTOCOLOS]
+ - Validación NETCONF (XML)  : [OK]
+ - Validación RESTCONF (JSON) : [OK]
+ - Verificación de Estado Operacional (pyATS): [OK]
+
+==================================================
+RESULTADO FINAL DE LA AUDITORÍA: CONFORME
+==================================================
+Este documento certifica de manera independiente que los cambios de
+aprovisionamiento aplicados sobre el router RTR-CATIND han sido validados.
+El dispositivo es apto para pasar al entorno de Operaciones (Producción).
+

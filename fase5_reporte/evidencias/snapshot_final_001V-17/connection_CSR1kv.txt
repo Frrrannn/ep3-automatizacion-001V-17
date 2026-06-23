@@ -1,0 +1,123 @@
+[2026-06-23 22:38:50,485] +++ CSR1kv logfile evidencias/snapshot_final_001V-17/connection_CSR1kv.txt +++
+[2026-06-23 22:38:50,485] +++ Unicon plugin iosxe +++
+
+ACCESO RESTRINGIDO - CATIND
+Password: 
+[2026-06-23 22:38:50,977] +++ connection to spawn: ssh -l cisco 192.168.56.102 -p 22, id: 140186366499280 +++
+[2026-06-23 22:38:50,977] connection to CSR1kv
+
+
+*                                           *
+**                                         **
+***                                       ***
+***  Cisco Networking Academy             ***
+***   Emerging Technologies Workshop:     ***
+***    Model Driven Programmability       ***
+***                                       ***
+***  This software is provided for        ***
+***   Educational Purposes                ***
+***    Only in Networking Academies       ***
+***                                       ***
+**                                         **
+*                                           *
+
+
+RTR-CATIND#[2026-06-23 22:44:35,861] +++ CSR1kv logfile evidencias/snapshot_final_001V-17/connection_CSR1kv.txt +++
+[2026-06-23 22:44:35,861] +++ Unicon plugin iosxe +++
+
+ACCESO RESTRINGIDO - CATIND
+Password: 
+[2026-06-23 22:44:36,346] +++ connection to spawn: ssh -l cisco 192.168.56.102 -p 22, id: 140012189047872 +++
+[2026-06-23 22:44:36,346] connection to CSR1kv
+
+
+*                                           *
+**                                         **
+***                                       ***
+***  Cisco Networking Academy             ***
+***   Emerging Technologies Workshop:     ***
+***    Model Driven Programmability       ***
+***                                       ***
+***  This software is provided for        ***
+***   Educational Purposes                ***
+***    Only in Networking Academies       ***
+***                                       ***
+**                                         **
+*                                           *
+
+
+RTR-CATIND#[2026-06-23 22:47:24,374] +++ CSR1kv logfile evidencias/snapshot_final_001V-17/connection_CSR1kv.txt +++
+[2026-06-23 22:47:24,374] +++ Unicon plugin iosxe +++
+
+ACCESO RESTRINGIDO - CATIND
+
+[2026-06-23 22:47:24,651] +++ connection to spawn: ssh -l cisco 192.168.56.102 -p 22, id: 140320427482176 +++
+[2026-06-23 22:47:24,652] connection to CSR1kv
+Password: 
+
+*                                           *
+**                                         **
+***                                       ***
+***  Cisco Networking Academy             ***
+***   Emerging Technologies Workshop:     ***
+***    Model Driven Programmability       ***
+***                                       ***
+***  This software is provided for        ***
+***   Educational Purposes                ***
+***    Only in Networking Academies       ***
+***                                       ***
+**                                         **
+*                                           *
+
+
+
+RTR-CATIND#[2026-06-23 22:49:32,903] +++ CSR1kv logfile evidencias/snapshot_final_001V-17/connection_CSR1kv.txt +++
+[2026-06-23 22:49:32,904] +++ Unicon plugin iosxe +++
+
+ACCESO RESTRINGIDO - CATIND
+Password: 
+[2026-06-23 22:49:33,191] +++ connection to spawn: ssh -l cisco 192.168.56.102 -p 22, id: 140014976482368 +++
+[2026-06-23 22:49:33,191] connection to CSR1kv
+
+
+*                                           *
+**                                         **
+***                                       ***
+***  Cisco Networking Academy             ***
+***   Emerging Technologies Workshop:     ***
+***    Model Driven Programmability       ***
+***                                       ***
+***  This software is provided for        ***
+***   Educational Purposes                ***
+***    Only in Networking Academies       ***
+***                                       ***
+**                                         **
+*                                           *
+
+
+
+RTR-CATIND#[2026-06-23 22:51:21,129] +++ CSR1kv logfile evidencias/snapshot_final_001V-17/connection_CSR1kv.txt +++
+[2026-06-23 22:51:21,129] +++ Unicon plugin iosxe +++
+
+ACCESO RESTRINGIDO - CATIND
+
+[2026-06-23 22:51:21,610] +++ connection to spawn: ssh -l cisco 192.168.56.102 -p 22, id: 139769872878656 +++
+[2026-06-23 22:51:21,610] connection to CSR1kv
+Password: 
+
+*                                           *
+**                                         **
+***                                       ***
+***  Cisco Networking Academy             ***
+***   Emerging Technologies Workshop:     ***
+***    Model Driven Programmability       ***
+***                                       ***
+***  This software is provided for        ***
+***   Educational Purposes                ***
+***    Only in Networking Academies       ***
+***                                       ***
+**                                         **
+*                                           *
+
+
+RTR-CATIND#
