@@ -1,0 +1,18 @@
+==================================================
+Script de Validación : validacion_restconf.py
+Fecha/Hora Ejecución : 2026-06-23 22:32:40
+Hostname VM          : labvm
+==================================================
+
+[*] Conectando vía RESTCONF a 192.168.56.102...
+[+] Respuestas RESTCONF JSON guardadas en evidencias/responses/
+
+=== EVALUACIÓN DE CRITERIOS ===
+ - Hostname              : [OK] (Real: RTR-CATIND == Esperado: RTR-CATIND)
+ - IP Loopback           : [OK] (Real: 10.1.17.1 == Esperado: 10.1.17.1)
+ - Descripción WAN       : [OK] (Real: Enlace-WAN-Los-Angeles == Esperado: Enlace-WAN-Los-Angeles)
+ - Servidor NTP          : [OK] (Real: 1.1.1.1 == Esperado: 1.1.1.1)
+===============================
+
+Resultado Global: CONFORME
+
