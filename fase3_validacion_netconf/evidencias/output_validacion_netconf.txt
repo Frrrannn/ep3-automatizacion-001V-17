@@ -1,0 +1,19 @@
+==================================================
+Script de Validación : validacion_netconf.py
+Fecha/Hora Ejecución : 2026-06-23 22:27:05
+Hostname VM          : labvm
+==================================================
+
+[*] Conectando vía NETCONF a 192.168.56.102:830...
+[+] Respuesta XML cruda guardada en evidencias/rpc_reply_raw.xml
+
+=== EVALUACIÓN DE CRITERIOS ===
+ - Hostname              : [OK] (Real: RTR-CATIND == Esperado: RTR-CATIND)
+ - IP Loopback           : [OK] (Real: 10.1.17.1 == Esperado: 10.1.17.1)
+ - Máscara Loopback      : [OK] (Real: 255.255.255.0 == Esperado: 255.255.255.0)
+ - Descripción WAN       : [OK] (Real: Enlace-WAN-Los-Angeles == Esperado: Enlace-WAN-Los-Angeles)
+ - Servidor NTP          : [OK] (Real: 1.1.1.1 == Esperado: 1.1.1.1)
+===============================
+
+Resultado Global: CONFORME
+
